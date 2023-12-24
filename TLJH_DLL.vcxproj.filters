@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="TLJH.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Discord SDK\src\serialization.cpp" />
+    <ClCompile Include="Discord SDK\src\connection_win.cpp" />
+    <ClCompile Include="modLoader.cpp" />
+    <ClCompile Include="LuaHandler.cpp" />
+    <ClCompile Include="LuaModInterface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TLJH.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Discord SDK\src\serialization.h" />
+    <ClInclude Include="Discord SDK\src\backoff.h" />
+    <ClInclude Include="Discord SDK\src\msg_queue.h" />
+    <ClInclude Include="modLoader.h" />
+    <ClInclude Include="LuaHandler.h" />
+    <ClInclude Include="LuaModInterface.h" />
+  </ItemGroup>
+</Project>
